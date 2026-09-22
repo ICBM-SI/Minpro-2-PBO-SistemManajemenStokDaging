@@ -8,23 +8,21 @@ package model;
  *
  * @author LENOVO
  */
-public class StokKeluar {
-    public int idStokKeluar, idDaging, idKaryawan, jumlah;
-    public String tanggalKeluar, alasan, keterangan;
-
+public class StokKeluar extends TransaksiStok {
+    private String alasan;
+ 
     public StokKeluar(int idStokKeluar, int idDaging, int idKaryawan, String tanggalKeluar,
                        int jumlah, String alasan, String keterangan) {
-        this.idStokKeluar = idStokKeluar;
-        this.idDaging = idDaging;
-        this.idKaryawan = idKaryawan;
-        this.tanggalKeluar = tanggalKeluar;
-        this.jumlah = jumlah;
+        super(idStokKeluar, idDaging, idKaryawan, tanggalKeluar, jumlah, keterangan);
         this.alasan = alasan;
-        this.keterangan = keterangan;
     }
-
+ 
+    public String getAlasan() { return alasan; }
+    public void setAlasan(String alasan) { this.alasan = alasan; }
+ 
+    @Override
     public void tampilkan() {
-        System.out.println(idStokKeluar + " | Daging:" + idDaging + " | Karyawan:" + idKaryawan
-                + " | " + tanggalKeluar + " | " + jumlah + " | " + alasan + " | " + keterangan);
+        System.out.println(getIdTransaksi() + " | Daging:" + getIdDaging() + " | Karyawan:" + getIdKaryawan()
+                + " | " + getTanggal() + " | " + getJumlah() + " | " + alasan + " | " + getKeterangan());
     }
 }
