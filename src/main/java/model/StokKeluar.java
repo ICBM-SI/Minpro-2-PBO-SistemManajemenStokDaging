@@ -17,12 +17,12 @@ public class StokKeluar extends TransaksiStok {
         this.alasan = alasan;
     }
  
-    public String getAlasan() { return alasan; }
-    public void setAlasan(String alasan) { this.alasan = alasan; }
+    public String getAlasan() {return alasan; }
+    public void setAlasan(String alasan) {this.alasan = alasan; }
  
     @Override
     public void tampilkan() {
-        System.out.println(getIdTransaksi() + " | Daging:" + getIdDaging() + " | Karyawan:" + getIdKaryawan()
-                + " | " + getTanggal() + " | " + getJumlah() + " | " + alasan + " | " + getKeterangan());
+        System.out.println(getIdTransaksi() + "Daging:" + getIdDaging() + "Karyawan:" + getIdKaryawan()
+                + getTanggal() + getJumlah() +  alasan + getKeterangan());
     }
 }

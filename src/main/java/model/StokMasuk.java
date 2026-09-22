@@ -52,13 +52,13 @@ public class StokMasuk extends TransaksiStok {
         this.idSupplier = idSupplier;
     }
  
-    public int getIdSupplier() { return idSupplier; }
-    public void setIdSupplier(int idSupplier) { this.idSupplier = idSupplier; }
+    public int getIdSupplier() {return idSupplier; }
+    public void setIdSupplier(int idSupplier) {this.idSupplier = idSupplier; }
  
     @Override
     public void tampilkan() {
-        System.out.println(getIdTransaksi() + " | Daging:" + getIdDaging() + " | Supplier:" + idSupplier
-                + " | Karyawan:" + getIdKaryawan() + " | " + getTanggal() + " | " + getJumlah()
-                + " | " + getKeterangan());
+        System.out.println(getIdTransaksi() + "Daging:" + getIdDaging() + "Supplier:" + idSupplier
+                + "Karyawan:" + getIdKaryawan() + getTanggal() + getJumlah()
+                + getKeterangan());
     }
 }
