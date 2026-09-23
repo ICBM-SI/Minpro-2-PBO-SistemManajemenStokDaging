@@ -133,5 +133,19 @@ Kedua transaksi ini punya kesamaan data yaitu: idTransaksi, idDaging, idKaryawan
 
 <img width="1064" height="423" alt="image" src="https://github.com/user-attachments/assets/a2f49dac-36cf-4261-94d7-f2f3e80d3bde" />
 
+# Nilai Tambah
+## Penerapan Polymorphism (override)
+Superclass TransaksiStok menggunakan method tampilkan()
+
+<img width="364" height="68" alt="image" src="https://github.com/user-attachments/assets/1b7352fb-2e04-4eed-873d-a537286aa86e" />
+
+Dua subclass-nya, StokMasuk dan StokKeluar sama-sama meng-extend TransaksiStok, tapi masing-masing melakukan override tampilkan() dengan implementasi yang berbeda karena struktur datanya juga berbeda.
+
+### StokMasuk:
+<img width="1270" height="439" alt="image" src="https://github.com/user-attachments/assets/7e884588-a371-4a60-986e-0cbe7d494a3e" />
+
+### StokKeluar:
+
+<img width="1318" height="409" alt="image" src="https://github.com/user-attachments/assets/da6897ed-44e7-46bf-9cc1-00112db695ff" />
 
 
