@@ -28,7 +28,7 @@ Opsi ini digunakan untuk menambahkan stok daging baru ke dalam database.
 ### 2. Lihat
 Opsi ini digunakan untuk melihat data stok daging yang ada.
 
-<img width="651" height="220" alt="image" src="https://github.com/user-attachments/assets/66d87493-d507-4a42-8bdc-160fd61783d3" />
+<img width="705" height="229" alt="image" src="https://github.com/user-attachments/assets/6c7a40ee-cafc-4808-9ed0-0417e60afe8d" />
 
 ### 3. Ubah
 Jika ingin mengubah jumlah nama dan stok daging yang sudah ada di dalam database, opsi ini dapat digunakan.
