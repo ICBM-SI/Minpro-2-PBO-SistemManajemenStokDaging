@@ -57,8 +57,8 @@ public class StokMasuk extends TransaksiStok {
  
     @Override
     public void tampilkan() {
-        System.out.println(getIdTransaksi() + "Daging:" + getIdDaging() + "Supplier:" + idSupplier
-                + "Karyawan:" + getIdKaryawan() + getTanggal() + getJumlah()
-                + getKeterangan());
+        System.out.println(getIdTransaksi() + " | " + "Daging: " + getIdDaging() + " | " + "Supplier: " + idSupplier + " | " 
+                + "Karyawan: " + getIdKaryawan() + " | " + getTanggal() + " | " + getJumlah() + " | " 
+                + getKeterangan()) ;
     }
 }

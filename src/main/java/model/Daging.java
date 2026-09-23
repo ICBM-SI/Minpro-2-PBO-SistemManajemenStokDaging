@@ -48,8 +48,8 @@ public class Daging {
     public void setStatus(String status) {this.status = status; }
  
     public void tampilkan() {
-        System.out.println(idDaging + namaDaging + bagianDaging
-                + berat + "kg" + tanggalMasuk + tanggalExpired
-                + stok + status);
+        System.out.println(idDaging + " | " + namaDaging + " | "  + bagianDaging + " | " 
+                + berat + "kg" + " | " + tanggalMasuk + " | " + tanggalExpired+ " | " 
+                + stok+ " | "  + status+ " | " );
     }
 }

@@ -22,7 +22,7 @@ public class StokKeluar extends TransaksiStok {
  
     @Override
     public void tampilkan() {
-        System.out.println(getIdTransaksi() + "Daging:" + getIdDaging() + "Karyawan:" + getIdKaryawan()
-                + getTanggal() + getJumlah() +  alasan + getKeterangan());
+        System.out.println(getIdTransaksi() + " | " + "Daging: " + getIdDaging() + " | " + "Karyawan: " + getIdKaryawan() + " | " 
+                + getTanggal() + " | " + getJumlah() + " | " +  alasan + ": " + getKeterangan());
     }
 }

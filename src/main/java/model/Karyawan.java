@@ -27,6 +27,6 @@ public class Karyawan {
     public void setJabatan(String jabatan) {this.jabatan = jabatan; }
  
     public void tampilkan() {
-        System.out.println(idKaryawan + namaKaryawan + jabatan);
+        System.out.println(idKaryawan + " | " + namaKaryawan + " | " + jabatan + " | " );
     }
 }
